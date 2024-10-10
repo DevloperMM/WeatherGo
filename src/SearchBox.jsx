@@ -9,7 +9,7 @@ export default function SearchBox({ updateInfo }) {
   let [err, setErr] = useState(false);
 
   let url = "https://api.openweathermap.org/data/2.5/weather";
-  let api_url = "http://api.openweathermap.org/geo/1.0/direct";
+  let api_url = "https://api.openweathermap.org/geo/1.0/direct";
   let api_key = import.meta.env.VITE_KEY;
 
   let getWeatherInfo = async () => {
