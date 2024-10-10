@@ -1,0 +1,14 @@
+.info-box {
+  text-align: center;
+}
+
+li {
+  font-weight: bold;
+  text-align: left;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+}
