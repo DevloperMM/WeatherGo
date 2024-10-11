@@ -27,7 +27,7 @@ export default function InfoBox({ info }) {
             image={
               info.city === undefined
                 ? init_url
-                : info.humidity > 80
+                : info.humidity > 80 || info.weather_type.includes("rain")
                 ? rain_url
                 : info.temp > 20
                 ? hot_url
